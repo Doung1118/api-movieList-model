@@ -105,9 +105,8 @@
 
     if (event.target.matches('.btn-show-movie')) {
 
-
       //who trigger it 
-      console.log(event.target)
+      console.log(event.target.dataset.id)
 
     }
 
